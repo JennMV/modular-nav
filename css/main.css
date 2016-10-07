@@ -39,7 +39,6 @@ ul {
 
 li {
   display: inline-block;
-
 }
 
 a {
@@ -55,10 +54,6 @@ li a:hover {
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
 @media only screen and (min-width: 38em) {
 
   .nav {
@@ -69,8 +64,7 @@ li a:hover {
 
 @media only screen and (min-width: 60em) {
 
-}
-
-@media only screen and (min-width: 90em) {
-
+  .logo {
+    text-align: left;
+  }
 }
